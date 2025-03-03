@@ -1,0 +1,193 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    background: #f5f5dc; /* Cream Background */
+    overflow-x: hidden;
+}
+.logo img {
+    width: 50px; /* Adjust the size as you like */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+    margin: 0 auto; /* Center the logo if needed */
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+}
+
+.menu-icon {
+    cursor: pointer;
+    padding: 10px;
+    background: #000;
+    color: #f5f5dc;
+    display: inline-block;
+    border-radius: 5px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 150px;
+    background: #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.menu a {
+    display: block;
+    padding: 10px;
+    color: #f5f5dc;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    background: #333;
+}
+
+.show-menu {
+    display: block;
+}
+
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5dc;
+}
+
+.hero h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: ;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    letter-spacing: 3px;
+    margin: 0;
+    color: #0c0c0c; /* Text color BLACK */
+}
+
+
+.space {
+    height: 100px; /* Reduced Space */
+}
+
+.about-section {
+    padding: 50px;
+}
+
+.about-section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #000;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 18px;
+    color: #000;
+}
+
+.read-more-btn {
+    padding: 10px 20px;
+    background: #000;
+    color: #f5f5dc;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.read-more-btn:hover {
+    background: #333;
+}
+
+/* Contact Section */
+.contact-section {
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+    background: #f5f5dc;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.contact-section h1 {
+    font-size: 30px;
+    color: #000;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 90%;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background: #f5f5dc;
+    color: #000;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background: #000;
+    color: #f5f5dc;
+    border: none;
+    width: 50%;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.submit-btn:hover {
+    background: #333;
+}
+.contact-section:hover {
+    transform: scale(1.05); /* Little Zoom */
+    transition: 0.4s ease-in-out;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+/* Footer Styles */
+.footer {
+    background: #0c0c0c; /* Black Theme */
+    color: #f5f5dc; /* Cream Color */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 100px; /* Added margin */
+    width: 100%;
+    box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.footer a {
+    color: #f5f5dc;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.social-links {
+    margin: 10px 0;
+}
+
+.copyright {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
